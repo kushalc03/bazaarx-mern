@@ -1,6 +1,6 @@
-# Salesetter MERN app
+# BazaarX
 
-This is the salesetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
+Growing up in the immigrant community of south Fremont, California in the Bay Area, in the absence of authentic food and snacks at restaurants, people would run entire businesses cooking traditional food, connecting with customers over WhatsApp, and delivering to customers. This food is extremely high-stakes, and would often be feeding hundreds of people at family get-togethers. Similarly, many stay-at-home mothers would make small snacks and run businesses out of their homes, selling macaroons, samosas, or sweets for people to pick up. I wanted to streamline the process of buying and selling food using BazaarX, where customers can find all the households in their area selling authentic food and where sellers can expand their customer base to people not as familiar with their food!
 
 ## Usage
 
@@ -23,8 +23,6 @@ npm install
 npm run server
 ```
 
-## Demo
+## Acknowledgements
 
-I am not sure how long this will be up
-
-https://mernappbrad.herokuapp.com/
+Thank you to Brad Traversy for guiding the full-stack development of the MVP sale lister!
