@@ -18,11 +18,16 @@ const getSales = asyncHandler(async (req, res) => {
 const setSale = asyncHandler(async (req, res) => {
   if (!req.body.text) {
     res.status(400)
-    throw new Error('Please add a text field')
+    throw new Error('Please add a sale')
+  }
+  if (!req.body.address) {
+    res.status(400)
+    throw new Error('Please add an address')
   }
 
   const sale = await Sale.create({
     text: req.body.text,
+    address: req.body.address,
     user: req.user.id,
   })
 

@@ -11,6 +11,10 @@ const saleSchema = mongoose.Schema(
       type: String,
       required: [true, 'Please add a text value'],
     },
+    address: {
+      type: String,
+      required: [true, 'Please add an address'],
+    }
   },
   {
     timestamps: true,

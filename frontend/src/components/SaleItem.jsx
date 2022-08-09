@@ -8,6 +8,7 @@ function SaleItem({ sale }) {
     <div className='sale'>
       <div>{new Date(sale.createdAt).toLocaleString('en-US')}</div>
       <h2>{sale.text}</h2>
+      <h3>{sale.address}</h3>
       <button onClick={() => dispatch(deleteSale(sale._id))} className='close'>
         X
       </button>
